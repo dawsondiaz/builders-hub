@@ -1,0 +1,42 @@
+.navbar {
+  border: none; !important
+  font-size: 13px;
+  font-weight: 300;
+    border-radius: 0px;
+}
+.navbar-inverse {
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #bababa;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  color: #fff;
+  background-color: #0060a7;
+}
+
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid;
+border-color: #337ab7;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
